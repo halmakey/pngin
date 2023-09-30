@@ -14,3 +14,7 @@
 ## セットアップ
 
 [Wiki](https://github.com/halmakey/pngin/wiki) を参照
+
+## ライセンス
+
+MIT License
