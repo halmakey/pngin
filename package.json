@@ -15,7 +15,7 @@
     "configure-recaptcha": "tsx ./scripts/put-recaptcha-secrets.mts",
     "setup-env": "$npm_execpath run setup-env-dev && $npm_execpath run setup-env-prod",
     "setup-env-dev": "tsx ./scripts/print-secrets-to-env.mts dev > .env.local",
-    "setup-env-prod": "tsx ./scripts/print-secrets-to-env.mts dev > .env.production"
+    "setup-env-prod": "tsx ./scripts/print-secrets-to-env.mts prod > .env.local"
   },
   "dependencies": {
     "@aws-sdk/client-cloudfront": "^3.327.0",
