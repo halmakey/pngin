@@ -13,4 +13,4 @@
 
 ## セットアップ
 
-[Wiki](https://github.com/halmakey/pngin/wiki/%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97) を参照
+[Wiki](https://github.com/halmakey/pngin/wiki) を参照
