@@ -1,0 +1,10 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="Check" x="0" y="0" width=".03125" height=".03125">
+      <rect width="16" height="16" fill="#4b4b4b" />
+      <rect x="8" width="8" height="8" fill="#3b3b3b" />
+      <rect y="8" width="8" height="8" fill="#3b3b3b" />
+    </pattern>
+  </defs>
+  <rect fill="url(#Check)" width="512" height="512" />
+</svg>

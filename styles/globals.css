@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  @apply bg-white;
+}
+
+@layer base {
+  a {
+    @apply text-blue-400;
+  }
+  button {
+    @apply no-underline;
+  }
+}
+
+@layer components {
+  .btn-fill {
+    @apply flex items-center gap-2 whitespace-nowrap border border-blue-700 bg-blue-700 fill-white px-4 py-2 text-white transition hover:border-blue-400 hover:bg-blue-400 active:border-blue-800 active:bg-blue-800 disabled:border-gray-400 disabled:bg-gray-400;
+  }
+  .btn-border {
+    @apply flex items-center gap-2 whitespace-nowrap border border-blue-700 fill-white px-4 py-2 text-blue-700 transition hover:border-blue-400 hover:bg-blue-400 hover:text-white active:border-blue-800 active:bg-blue-800 disabled:pointer-events-none disabled:border-gray-400 disabled:text-gray-400;
+  }
+  .btn-fill-invert {
+    @apply flex items-center gap-2 whitespace-nowrap bg-white fill-blue-700 px-4 py-2 text-blue-700 transition hover:bg-gray-200 hover:text-blue-700 active:border-gray-400 active:bg-gray-400 disabled:pointer-events-none disabled:bg-gray-400;
+  }
+  .btn-border-invert {
+    @apply flex items-center gap-2 whitespace-nowrap border border-white fill-white px-4 py-2 text-white transition hover:bg-white hover:fill-blue-700 hover:text-blue-700 active:border-gray-400 active:bg-gray-400 disabled:pointer-events-none disabled:opacity-50;
+  }
+  .btn-opacity {
+    @apply flex items-center gap-2 whitespace-nowrap outline-none hover:opacity-80 active:opacity-50 disabled:pointer-events-none disabled:opacity-20;
+  }
+  .btn-opacity-dim {
+    @apply flex items-center gap-2 whitespace-nowrap opacity-50 outline-none hover:opacity-80 active:opacity-50 disabled:pointer-events-none disabled:opacity-20;
+  }
+  .btn-fill-danger {
+    @apply flex items-center gap-2 whitespace-nowrap bg-red-600 fill-white px-4 py-2 text-white transition hover:bg-red-400 active:bg-red-800 disabled:bg-gray-400;
+  }
+  .btn-border-danger {
+    @apply flex items-center gap-2 whitespace-nowrap border border-red-700 fill-white px-4 py-2 text-red-700 transition hover:border-red-400 hover:bg-red-400 hover:text-white active:border-red-800 active:bg-red-800 disabled:pointer-events-none disabled:border-gray-400 disabled:text-gray-400;
+  }
+
+  h1 {
+    @apply mb-4 text-xl font-bold;
+  }
+
+  h2 {
+    @apply mb-4 text-lg font-bold;
+  }
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}

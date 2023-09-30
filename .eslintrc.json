@@ -1,0 +1,12 @@
+{
+  "extends": ["next/core-web-vitals", "plugin:react-hooks/recommended"],
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "react-hooks/exhaustive-deps": [
+      "error",
+      {
+        "additionalHooks": "(useAsyncCallback|useAsync|useAsyncMemo|useResizeMemo)"
+      }
+    ]
+  }
+}

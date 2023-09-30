@@ -1,0 +1,7 @@
+.next/
+node_modules/
+.pnp.cjs
+.pnp.loader.mjs
+.vercel/
+cdk.out
+cdk.output.json

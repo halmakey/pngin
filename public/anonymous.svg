@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_223_2)">
+<rect width="200" height="200" fill="#2F80ED"/>
+<mask id="mask0_223_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+<rect width="200" height="200" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_223_2)">
+<rect x="29" y="63.9132" width="128.481" height="90.9542" rx="8" transform="rotate(-6.66553 29 63.9132)" fill="#D9D9D9"/>
+<circle cx="63.2019" cy="92.6949" r="5.56863" transform="rotate(-6.66553 63.2019 92.6949)" fill="#4F4F4F"/>
+<circle cx="63.2019" cy="92.6949" r="5.56863" transform="rotate(-6.66553 63.2019 92.6949)" fill="#4F4F4F"/>
+<circle cx="63.2019" cy="92.6949" r="5.56863" transform="rotate(-6.66553 63.2019 92.6949)" fill="#4F4F4F"/>
+<circle cx="129.574" cy="84.9385" r="5.56863" transform="rotate(-6.66553 129.574 84.9385)" fill="#4F4F4F"/>
+<circle cx="129.574" cy="84.9385" r="5.56863" transform="rotate(-6.66553 129.574 84.9385)" fill="#4F4F4F"/>
+<circle cx="129.574" cy="84.9385" r="5.56863" transform="rotate(-6.66553 129.574 84.9385)" fill="#4F4F4F"/>
+<path d="M126.419 117.791C123.741 119.609 119.978 121.285 115.474 122.666C110.969 124.047 105.866 125.09 100.631 125.698C95.3956 126.306 90.1946 126.46 85.5027 126.147C80.8108 125.834 76.7775 125.063 73.7709 123.905" stroke="#4F4F4F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="111.5" cy="202.471" rx="59.5" ry="47" fill="#D9D9D9"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_223_2">
+<rect width="200" height="200" fill="white"/>
+</clipPath>
+</defs>
+</svg>

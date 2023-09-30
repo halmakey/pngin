@@ -1,0 +1,4 @@
+/scripts/
+/infra/
+cdk.json
+amplify.yml
